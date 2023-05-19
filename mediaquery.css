@@ -1,0 +1,1452 @@
+/* midia query */
+
+
+/* for mobile / low width screens 0-390px */
+
+
+@media (0px<=width <=390px) {
+    .menu {
+        display: none;
+    }
+
+    label.hamb {
+        margin: 37px 0px 40px 0px;
+    }
+
+    .hamb-line {
+        position: absolute;
+        left: 80%;
+        top: 10px;
+    }
+
+    #side-menu:checked~.menu {
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 70%;
+        width: 100%;
+        background-color: white;
+
+    }
+
+    .menu a {
+        padding: 10px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .menu button {
+
+        display: none;
+    }
+
+    .uper-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .sec-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 97%;
+        height: auto;
+        position: relative;
+    }
+
+    .details {
+        margin: 150px 10px 0px 10px;
+        width: 100%;
+    }
+
+    .details h1 {
+        font-size: 60px;
+    }
+
+    .sec-2 img {
+        width: 250px;
+        padding: 0px;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .icons-img {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        right: 10%;
+    }
+
+    /* **********heder section ended*********** */
+    .clients {
+        padding: 10px;
+    }
+
+    .client-img {
+        margin: 40px 0px 50px 40px;
+
+    }
+
+    .client-img img {
+        width: 90px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .clients h3 {
+        padding-top: 50px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    /* ***************** client sec ended**************************** */
+
+
+    .featurs {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .inner-features h3 i {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+
+    .inner-features p {
+        text-align: center;
+
+    }
+
+    /* ***************** features section end************************************ */
+    .skills {
+        margin-top: 100px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .contents {
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+    .contents p {
+        font-size: 20px;
+    }
+
+    .skills-name {
+        box-shadow: 0px 0px 5px 0px;
+        border-radius: 5px;
+        width: 90%;
+        margin: 150px 10px 10px 17px;
+    }
+
+    .skills-name ul {
+        list-style: none;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: 40px 10px 40px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .skills-name li {
+        padding: 10px 15px 10px 15px;
+        box-shadow: 0px 0px 5px 0px;
+        border-radius: 2px;
+        margin: 10px;
+    }
+
+    /* ***********skills sec ended****************** */
+    .numbers {
+        width: 100%;
+        margin: 100px 0px 100px 0px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .count h3 {
+        font-size: 90%;
+        margin: 10px 0px 0px 30px;
+    }
+
+    /* ***********numbers ended*************************** */
+    .about {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .about-left img {
+        width: 200px;
+        margin: 20px;
+
+    }
+
+    .exprience {
+        width: 80%;
+        left: 30px;
+        top: 190px;
+    }
+
+
+    .about-right {
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* about sec ended**************** */
+
+
+
+    .slide img {
+        width: 250px;
+        margin-left: 60px;
+    }
+
+    .testimnl {
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* ****************testimonnial section ended********** */
+    #work-img {
+        margin: 0px 20px 40px 20px;
+        position: relative;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+    .inner-work-1 {
+        width: 352px;
+    }
+
+    .inner-work-2 {
+        width: 352px;
+
+    }
+
+    .inner-work-3 {
+        width: 352px;
+    }
+
+    .inner-work-4 {
+        width: 352px;
+    }
+
+    .inner-work-5 {
+        width: 352px;
+    }
+
+    .inner-work-1 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-2 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-3 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-4 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-5 h1 {
+        font-size: 15px;
+    }
+
+    #work-img {
+        border-radius: 5px;
+        position: relative;
+    }
+
+    /* *******work section ended************** */
+    .faq {
+        margin: 100px 0 100px 0;
+    }
+
+    .content {
+        overflow: hidden;
+        height: 0;
+        margin-left: 30px;
+        width: 150%;
+        margin-bottom: 0px;
+
+    }
+
+    .handle {
+        font-size: 20px;
+        margin-left: 10%;
+        width: 150%;
+    }
+
+
+    /* ***************FAQ Section ended******************************************************************* */
+    /* ******************contact me section ended************* */
+
+    .blog-1 img {
+        width: 70%;
+        height: 20vh;
+        margin-top: 30px;
+    }
+
+    .blogs {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .blog-1 h2 {
+        font-size: 20px;
+        margin: 20px;
+        display: block;
+    }
+
+    /* **********blog section ended*****************
+    ******************************************* */
+    .footer {
+        width: 100%;
+        height: 105vh;
+        display: block;
+    }
+
+    .footer-left {
+        margin: 80px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .footer-left h3 {
+        font-size: 30px;
+        margin: 10px;
+        display: block;
+    }
+
+    .footer-left h1 {
+        font-size: 40px;
+        display: block;
+        margin: 0px;
+    }
+
+    .connect p {
+        font-size: 25px;
+        margin: 20px 0px 0px 5px;
+    }
+
+    .connect a {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .footer-right {
+        display: block;
+        width: 70%;
+        height: 33vh;
+        margin: 10px 0px 0px 60px;
+        padding: 2px 0px 5px 0px;
+    }
+
+    .footer-right input, textarea {
+        width: 70%;
+        height: 3vh;
+        margin: 10px 0px 0px 35px;
+
+    }
+
+    .footer-right textarea {
+        height: 6vh;
+    }
+
+    .footer-right button {
+        padding: 10px 30px 10px 30px;
+        width: 90%;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .footer-right ul {
+        margin: 10px 0px 0px 40px;
+    }
+
+    .footer-right i {
+        font-size: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 10px;
+        left: 25px;
+        font-size: 20px;
+    }
+}
+
+/* **********************************
+****************************************
+
+
+
+
+*******************************************************
+
+
+
+
+***************************************************
+**************************************************************** */
+/* for mobile / low width screens 390-550px */
+@media (391px<=width <=550px) {
+    .menu {
+        display: none;
+    }
+
+    label.hamb {
+        margin: 37px 0px 40px 0px;
+    }
+
+    .hamb-line {
+        position: absolute;
+        left: 80%;
+        top: 10px;
+    }
+
+    #side-menu:checked~.menu {
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 80%;
+        width: 100%;
+        background-color: white;
+
+    }
+
+    .menu a {
+        padding: 10px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .menu button {
+
+        display: none;
+    }
+
+    .uper-div {
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    }
+
+    .sec-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 97%;
+        height: auto;
+        position: relative;
+    }
+
+    .details {
+        margin: 150px 10px 0px 10px;
+        width: 100%;
+    }
+
+    .details h1 {
+        font-size: 60px;
+    }
+
+    .sec-2 img {
+        width: 350px;
+        margin-bottom: 0%;
+    }
+
+    .icons-img {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* **********heder section ended*********** */
+    .clients {
+        padding: 10px;
+    }
+
+    .client-img {
+        margin: 40px 0px 50px 40px;
+
+    }
+
+    .client-img img {
+        width: 90px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .clients h3 {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    /* ***************** client sec ended**************************** */
+
+
+    .featurs {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .inner-features h3 i {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+
+    .inner-features p {
+        text-align: center;
+
+    }
+
+    /* ***************** features section end************************************ */
+    .skills {
+        margin-top: 100px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .contents {
+        width: 100%;
+        margin: 0px;
+    }
+
+
+
+    .contents p {
+        font-size: 20px;
+    }
+
+    .skills-name {
+        width: 90%;
+        margin: 100px 10px 10px 17px;
+    }
+
+    .skills-name ul {
+        list-style: none;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: 40px 10px 40px 0px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .skills-name li {
+        padding: 10px 15px 10px 15px;
+        margin: 10px;
+    }
+
+    /* ***********skills sec ended****************** */
+    .numbers {
+        width: 100%;
+        margin: 100px 0px 100px 0px;
+        display: inline-flex;
+        flex-direction: column;
+
+    }
+
+
+    .count h3 {
+        font-size: 25px;
+        margin: 10px 0px 0px 30px;
+    }
+
+    /* ***********numbers ended*************************** */
+    .about {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .about-left img {
+        width: 250px;
+        margin: 70px;
+
+    }
+
+    .exprience {
+        width: 70%;
+        left: 30px;
+        top: 280px;
+    }
+
+
+    .about-right {
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* about sec ended**************** */
+
+
+
+    .slide img {
+        width: 250px;
+        margin-left: 60px;
+    }
+
+    .testimnl {
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* ****************testimonnial section ended********** */
+    #work-img {
+        margin: 20px 5% 40px 7%;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+    .inner-work-1 {
+        width: 352px;
+    }
+
+    .inner-work-2 {
+        width: 352px;
+
+    }
+
+    .inner-work-3 {
+        width: 352px;
+    }
+
+    .inner-work-4 {
+        width: 352px;
+    }
+
+    .inner-work-5 {
+        width: 352px;
+    }
+
+    .inner-work-1 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-2 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-3 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-4 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-5 h1 {
+        font-size: 15px;
+    }
+
+    #work-img {
+        position: relative;
+    }
+
+    /* *******work section ended************** */
+    .faq {
+        margin: 100px 0 100px 0;
+    }
+
+    .content {
+        overflow: hidden;
+        height: 0;
+        margin-left: 30px;
+        width: 150%;
+        margin-bottom: 0px;
+
+    }
+
+    .handle {
+        font-size: 20px;
+        margin-left: 10%;
+        width: 150%;
+    }
+
+
+    /* ***************FAQ Section ended******************************************************************* */
+    /* ******************contact me section ended************* */
+
+    .blog-1 img {
+        width: 70%;
+        height: 20vh;
+        margin-top: 30px;
+    }
+
+    .blogs {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .blog-1 h2 {
+        font-size: 20px;
+        margin: 20px;
+        display: block;
+    }
+
+    /* **********blog section ended*****************
+    ******************************************* */
+    .footer {
+
+        width: 100%;
+        height: 92vh;
+        display: block;
+    }
+
+    .footer-left {
+        margin: 80px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .footer-left h3 {
+        font-size: 30px;
+        margin: 10px;
+        display: block;
+    }
+
+    .footer-left h1 {
+        font-size: 40px;
+        display: block;
+        margin: 0px;
+    }
+
+    .connect p {
+        font-size: 25px;
+        margin: 20px 0px 0px 5px;
+    }
+
+    .connect a {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .footer-right {
+        display: block;
+        width: 70%;
+        height: 33vh;
+        margin: 10px 0px 0px 60px;
+        padding: 2px 0px 5px 0px;
+    }
+
+    .footer-right input, textarea {
+        width: 70%;
+        height: 3vh;
+        margin: 10px 0px 0px 45px;
+
+    }
+
+    .footer-right textarea {
+        height: 6vh;
+    }
+
+    .footer-right button {
+        padding: 10px 30px 10px 30px;
+        width: 40%;
+        margin: 10px 0px 0px 80px;
+    }
+
+    .footer-right ul {
+        margin: 10px 0px 0px 65px;
+    }
+
+    .footer-right i {
+        font-size: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 10px;
+        left: 25px;
+        font-size: 20px;
+    }
+}
+
+/* **********************************
+
+
+****************************************
+
+
+***************************************************
+
+
+
+**************************************************************** */
+
+
+
+/* For  tablats / mid wdth screens 550-800px  */
+
+
+
+@media (550px <=width <=800px) {
+    .menu {
+        display: none;
+    }
+
+    label.hamb {
+        margin: 37px 0px 40px 0px;
+    }
+
+    .hamb-line {
+        position: absolute;
+        left: 89%;
+        top: 10px;
+    }
+
+    #side-menu:checked~.menu {
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 70%;
+        width: 90%;
+        background-color: white;
+
+    }
+
+    .menu a {
+        padding: 15px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .menu button {
+
+        display: none;
+    }
+
+    .uper-div {
+        height: auto;
+    }
+
+    .sec-2 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .details {
+        margin: 150px 10px 0px 10px;
+        width: 100%;
+    }
+
+    .details h1 {
+        font-size: 60px;
+    }
+
+    .sec-2 img {
+        width: 350px;
+        margin-top: 60%;
+    }
+
+    .icons-img {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* **********heder section ended*********** */
+    .clients {
+        padding: 10px;
+    }
+
+    .client-img {
+        margin: 40px 0px 50px 40px;
+
+    }
+
+    .client-img img {
+        width: 150px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .clients h3 {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    /* ***************** client sec ended**************************** */
+
+
+    .featurs {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .inner-features h3 i {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+
+    .inner-features p {
+        text-align: center;
+
+    }
+
+    /* ***************** features section end************************************ */
+    .skills {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .contents {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .contents h3 {
+        font-size: 30px;
+    }
+
+
+    .contents p {
+        font-size: 20px;
+    }
+
+    .skills-name {
+        width: 90%;
+        margin: 100px 10px 10px 17px;
+    }
+
+    .skills-name ul {
+        margin: 40px 10px 40px 0px;
+        width: 100%;
+    }
+
+    .skills-name li {
+        padding: 10px 15px 10px 15px;
+    }
+
+    /* ***********skills sec ended****************** */
+    .numbers {
+        width: 100%;
+        margin: 100px 0px 100px 0px;
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    .count {
+        width: 30%;
+        display: inline-flex;
+        flex-direction: column;
+        margin: 134px 0px 0px 50px;
+    }
+
+    /* ***********numbers ended*************************** */
+    .about {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .about-left img {
+        width: 250px;
+        margin: 70px;
+
+    }
+
+    .exprience {
+        width: 70%;
+        left: 30px;
+        top: 280px;
+    }
+
+
+    .about-right {
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* about section ended**************** */
+
+
+
+    .slide img {
+        width: 450px;
+        margin-left: 140px;
+    }
+
+    .testimnl {
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+    }
+
+    /* ****************testimonnial section ended********** */
+    #work-img {
+        margin: 30px 0px 40px 20px;
+        position: relative;
+    }
+
+    .work {
+        width: 100%;
+    }
+
+    .inner-work-1 {
+        width: 45%;
+    }
+
+    .inner-work-2 {
+        width: 45%;
+
+    }
+
+    .inner-work-3 {
+        width: 28%;
+    }
+
+    .inner-work-4 {
+        width: 30%;
+    }
+
+    .inner-work-5 {
+        width: 28%;
+    }
+
+    .inner-work-1 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-2 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-3 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-4 h1 {
+        font-size: 15px;
+    }
+
+    .inner-work-5 h1 {
+        font-size: 15px;
+    }
+
+
+    /* *******work section ended************** */
+    .faq {
+        margin: 100px 0 100px 0;
+    }
+
+    .content {
+        overflow: hidden;
+        height: 0;
+        margin-left: 70px;
+        width: 150%;
+        margin-bottom: 0px;
+
+    }
+
+    .handle {
+        font-size: 20px;
+        margin-left: 10%;
+        width: 150%;
+    }
+
+
+    /* ***************FAQ Section ended******************************************************************* */
+    /* ******************contact me section ended************* */
+
+    .blog-1 img {
+        width: 200px;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blog-1 {
+        width: 28%;
+        margin-left: 30px;
+    }
+
+    /* **********blog section ended*****************
+    ******************************************* */
+    .footer {
+
+        width: 100%;
+        height: 107vh;
+        display: block;
+        padding: 1px 0px 0px 0px;
+    }
+
+    .footer-left {
+        margin: 40px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .footer-left h3 {
+        font-size: 30px;
+        margin: 10px;
+        display: block;
+    }
+
+    .footer-left h1 {
+        font-size: 40px;
+        display: block;
+        margin: 0px;
+    }
+
+    .connect p {
+        font-size: 25px;
+        margin: 20px 0px 0px 5px;
+    }
+
+    .connect a {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .footer-right {
+        display: block;
+        width: 70%;
+        height: 40vh;
+        margin: 30px 0px 0px 130px;
+        padding: 2px 0px 5px 0px;
+    }
+
+    .footer-right input, textarea {
+        width: 70%;
+        height: 5vh;
+        margin: 10px 0px 0px 85px;
+
+    }
+
+    .footer-right textarea {
+        height: 6vh;
+    }
+
+    .footer-right button {
+        padding: 10px 25px 10px 25px;
+        width: 50%;
+        margin: 10px 0px 0px 130px;
+    }
+
+    .footer-right ul {
+        margin: 30px 0px 0px 180px;
+    }
+
+    .footer-right i {
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 15px;
+        left: 25px;
+        font-size: 20px;
+        word-spacing: 10px;
+    }
+
+
+}
+
+/* ************************
+
+
+
+
+
+
+*****************************
+
+
+
+***********************************
+
+
+
+
+**************************************** */
+
+
+
+/* for tab / wide width screens 800-4000px */
+
+
+@media (801px<=width <=1200px) {
+
+    .menu {
+        padding-left: 10%;
+    }
+
+    .menu a {
+        margin-left: 20px;
+    }
+
+    .menu button {
+        margin-left: 10px;
+    }
+
+    .uper-div {
+        height: auto;
+    }
+
+    .details {
+        margin: 150px 0px 20px 90px;
+    }
+
+    .sec-2 img {
+        width: 30%;
+        height: 600px;
+        margin-bottom: 0%;
+
+    }
+
+    .icons-img {
+        position: absolute;
+
+    }
+
+    .icons-img i {
+        padding: 25px;
+        margin: 10px;
+    }
+
+    /* ***************************************** */
+
+
+    .client-img {
+        margin: 40px 0px 50px 10px;
+
+    }
+
+    .client-img img {
+        width: 200px;
+    }
+
+
+    /* ********************************************* */
+
+    /* features */
+    /* ***************************************************** */
+
+
+    .contents {
+        width: 40%;
+        margin: 40px 0px 200px 100px;
+    }
+
+    .skills-name {
+        width: 50%;
+        margin: 10px 10px 10px 30px;
+    }
+
+
+    /* ***********skills sec ended****************** */
+    .numbers {
+        width: 100%;
+        margin: 200px 0px 100px 0px;
+        height: 13vh;
+    }
+
+    .count {
+        width: 28%;
+    }
+
+    .count h1 {
+        font-size: 50px;
+    }
+
+    .count h3 {
+        font-size: 20px;
+    }
+
+    /* ***********numbers ended*************************** */
+    .about {
+        padding: 0px 0px 50px 0px;
+    }
+
+    .about-right {
+        margin: 150px 50px 0px 70px;
+    }
+
+    .about-right h1 {
+        width: 60%;
+    }
+
+    /* about sec ended**************** */
+
+
+    .slide {
+        width: 100%;
+        display: inline-flex;
+    }
+
+    .slider {
+        width: 300%;
+        display: flex;
+    }
+
+
+    .slide img {
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .testimnl {
+        width: 50%;
+        margin: 0px 0px 0px 100px;
+        display: inline-block;
+    }
+
+    /* ****************testimonnial section ended********** */
+    .inner-work-1 {
+        width: 45%;
+    }
+
+    .inner-work-2 {
+        width: 45%;
+
+    }
+
+    .inner-work-3 {
+        width: 28%;
+    }
+
+    .inner-work-4 {
+        width: 28%;
+    }
+
+    .inner-work-5 {
+        width: 28%;
+    }
+
+    #work-img {
+        margin: 2px 0px 20px 40px;
+    }
+
+    /* *******work section ended************** */
+
+
+    .content {
+        margin-left: 100px;
+        width: 90%;
+    }
+
+    .accordion {
+        width: 90%;
+    }
+
+    .handle {
+        margin-left: 2%;
+    }
+
+    /* ***************FAQ Section ended******************************************************************* */
+
+    /* chat with me */
+
+    /* ******************contact me section ended************* */
+
+    .blog-1 img {
+        width: 80%;
+    }
+
+    /* *************blog section ended**************** */
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-left {
+        width: 40%;
+        margin-bottom: 100px;
+        height: auto;
+    }
+
+    .footer-right {
+        width: 40%;
+        height: auto;
+        margin: 40px 0px 100px 0px;
+        justify-content: center;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-right input, textarea {
+        width: 80%;
+        height: 4vh;
+        margin: 20px 0px 0px 20px;
+
+    }
+
+    .footer-right textarea {
+        height: 8vh;
+    }
+
+    .footer-right button {
+        padding: 13px 30px 13px 30px;
+        margin-left: 8%;
+        width: 50%;
+    }
+
+    .footer-right ul {
+        width: 50%;
+        margin: 5% 0px 5% 13%;
+    }
+
+    .footer-right i {
+        font-size: 35px;
+        padding: 20px;
+    }
+
+}
